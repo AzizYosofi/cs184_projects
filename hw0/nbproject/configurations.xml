@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="hw0" root=".">
+      <df name="include">
+        <df name="GL">
+          <in>glew.h</in>
+          <in>glxew.h</in>
+          <in>wglew.h</in>
+        </df>
+        <in>FreeImage.h</in>
+        <in>FreeImageIO.h</in>
+        <in>glew.h</in>
+        <in>glxew.h</in>
+        <in>wglew.h</in>
+      </df>
+      <df name="lib">
+        <df name="mac">
+        </df>
+        <df name="nix">
+        </df>
+      </df>
+      <df name="lib">
+        <df name="mac">
+          <in>FreeImage.h</in>
+          <in>FreeImageIO.h</in>
+        </df>
+      </df>
+      <df name="shaders">
+      </df>
+      <in>geometry3.h</in>
+      <in>mytest3.cpp</in>
+      <in>shaders.cpp</in>
+      <in>shaders.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>mytest3</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem></pElem>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="include/GL/glew.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="include/GL/glxew.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="include/GL/wglew.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="mytest3.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <preprocessorList>
+            <Elem>GL_GLEXT_PROTOTYPES</Elem>
+            <Elem>OSX</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="shaders.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <preprocessorList>
+            <Elem>GL_GLEXT_PROTOTYPES</Elem>
+            <Elem>OSX</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
