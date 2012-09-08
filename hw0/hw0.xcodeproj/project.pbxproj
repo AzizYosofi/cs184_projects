@@ -1,0 +1,173 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		36ADF00E15E6FC2D00EA8292 /* geometry3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geometry3.h; sourceTree = "<group>"; };
+		36ADF00F15E6FC2D00EA8292 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		36ADF01015E6FC2D00EA8292 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		36ADF01115E6FC2D00EA8292 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		36ADF01215E6FC2D00EA8292 /* mytest3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mytest3.cpp; sourceTree = "<group>"; };
+		36ADF01315E6FC2D00EA8292 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		36ADF01415E6FC2D00EA8292 /* shaders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shaders.cpp; sourceTree = "<group>"; };
+		36ADF01515E6FC2D00EA8292 /* shaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaders.h; sourceTree = "<group>"; };
+		36ADF01615E6FC2D00EA8292 /* wood.ppm */ = {isa = PBXFileReference; lastKnownFileType = file; path = wood.ppm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		36ADF00115E6FC0D00EA8292 = {
+			isa = PBXGroup;
+			children = (
+				36ADF00E15E6FC2D00EA8292 /* geometry3.h */,
+				36ADF00F15E6FC2D00EA8292 /* include */,
+				36ADF01015E6FC2D00EA8292 /* lib */,
+				36ADF01115E6FC2D00EA8292 /* Makefile */,
+				36ADF01215E6FC2D00EA8292 /* mytest3.cpp */,
+				36ADF01315E6FC2D00EA8292 /* shaders */,
+				36ADF01415E6FC2D00EA8292 /* shaders.cpp */,
+				36ADF01515E6FC2D00EA8292 /* shaders.h */,
+				36ADF01615E6FC2D00EA8292 /* wood.ppm */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		36ADF00815E6FC0D00EA8292 /* hw0 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 36ADF00B15E6FC0D00EA8292 /* Build configuration list for PBXLegacyTarget "hw0" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = hw0;
+			passBuildSettingsInEnvironment = 1;
+			productName = hw0;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		36ADF00315E6FC0D00EA8292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Juan Gonzalez";
+			};
+			buildConfigurationList = 36ADF00615E6FC0D00EA8292 /* Build configuration list for PBXProject "hw0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36ADF00115E6FC0D00EA8292;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36ADF00815E6FC0D00EA8292 /* hw0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		36ADF00915E6FC0D00EA8292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36ADF00A15E6FC0D00EA8292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36ADF00C15E6FC0D00EA8292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				New_Setting = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36ADF00D15E6FC0D00EA8292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				New_Setting = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36ADF00615E6FC0D00EA8292 /* Build configuration list for PBXProject "hw0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36ADF00915E6FC0D00EA8292 /* Debug */,
+				36ADF00A15E6FC0D00EA8292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36ADF00B15E6FC0D00EA8292 /* Build configuration list for PBXLegacyTarget "hw0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36ADF00C15E6FC0D00EA8292 /* Debug */,
+				36ADF00D15E6FC0D00EA8292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36ADF00315E6FC0D00EA8292 /* Project object */;
+}

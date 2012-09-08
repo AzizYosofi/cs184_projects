@@ -1,0 +1,6 @@
+comments.txt
+Juan Gonzalez
+cs184-am
+==============
+
+I am using xode to work on these assignments. In order to get the assignments to compile through Xode instead of just command line, I added the files to a new empty project with "external build system." After doing this, hitting the play button in Xcode built the assignment. After that, I had to click on the project name and add a custom executable. I chose the correct executable for the project, and then, upon hitting the Xcode play button, Xcode both built and ran the assignment.

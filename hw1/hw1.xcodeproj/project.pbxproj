@@ -1,0 +1,186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		36ADF02415E6FCEF00EA8292 /* glm-0.9.2.7 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "glm-0.9.2.7"; sourceTree = "<group>"; };
+		36ADF02515E6FCEF00EA8292 /* grader.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = grader.o; sourceTree = "<group>"; };
+		36ADF02615E6FCEF00EA8292 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		36ADF02715E6FCEF00EA8292 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		36ADF02815E6FCEF00EA8292 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		36ADF02915E6FCEF00EA8292 /* main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = main.o; sourceTree = "<group>"; };
+		36ADF02A15E6FCEF00EA8292 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		36ADF02B15E6FCEF00EA8292 /* osxlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = osxlib; sourceTree = "<group>"; };
+		36ADF02C15E6FCEF00EA8292 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		36ADF02D15E6FCEF00EA8292 /* shaders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shaders.cpp; sourceTree = "<group>"; };
+		36ADF02E15E6FCEF00EA8292 /* shaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaders.h; sourceTree = "<group>"; };
+		36ADF02F15E6FCEF00EA8292 /* shaders.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = shaders.o; sourceTree = "<group>"; };
+		36ADF03015E6FCEF00EA8292 /* Transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transform.cpp; sourceTree = "<group>"; };
+		36ADF03115E6FCEF00EA8292 /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		36ADF03215E6FCEF00EA8292 /* Transform.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Transform.o; sourceTree = "<group>"; };
+		36ADF03315E6FCEF00EA8292 /* transforms */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = transforms; sourceTree = "<group>"; };
+		36ADF03415E6FCEF00EA8292 /* UCB */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UCB; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		36ADF01715E6FCD000EA8292 = {
+			isa = PBXGroup;
+			children = (
+				36ADF02415E6FCEF00EA8292 /* glm-0.9.2.7 */,
+				36ADF02515E6FCEF00EA8292 /* grader.o */,
+				36ADF02615E6FCEF00EA8292 /* include */,
+				36ADF02715E6FCEF00EA8292 /* input.txt */,
+				36ADF02815E6FCEF00EA8292 /* main.cpp */,
+				36ADF02915E6FCEF00EA8292 /* main.o */,
+				36ADF02A15E6FCEF00EA8292 /* Makefile */,
+				36ADF02B15E6FCEF00EA8292 /* osxlib */,
+				36ADF02C15E6FCEF00EA8292 /* shaders */,
+				36ADF02D15E6FCEF00EA8292 /* shaders.cpp */,
+				36ADF02E15E6FCEF00EA8292 /* shaders.h */,
+				36ADF02F15E6FCEF00EA8292 /* shaders.o */,
+				36ADF03015E6FCEF00EA8292 /* Transform.cpp */,
+				36ADF03115E6FCEF00EA8292 /* Transform.h */,
+				36ADF03215E6FCEF00EA8292 /* Transform.o */,
+				36ADF03315E6FCEF00EA8292 /* transforms */,
+				36ADF03415E6FCEF00EA8292 /* UCB */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		36ADF01E15E6FCD000EA8292 /* hw1 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 36ADF02115E6FCD000EA8292 /* Build configuration list for PBXLegacyTarget "hw1" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = hw1;
+			passBuildSettingsInEnvironment = 1;
+			productName = hw1;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		36ADF01915E6FCD000EA8292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Juan Gonzalez";
+			};
+			buildConfigurationList = 36ADF01C15E6FCD000EA8292 /* Build configuration list for PBXProject "hw1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36ADF01715E6FCD000EA8292;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36ADF01E15E6FCD000EA8292 /* hw1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		36ADF01F15E6FCD000EA8292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36ADF02015E6FCD000EA8292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36ADF02215E6FCD000EA8292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36ADF02315E6FCD000EA8292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36ADF01C15E6FCD000EA8292 /* Build configuration list for PBXProject "hw1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36ADF01F15E6FCD000EA8292 /* Debug */,
+				36ADF02015E6FCD000EA8292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36ADF02115E6FCD000EA8292 /* Build configuration list for PBXLegacyTarget "hw1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36ADF02215E6FCD000EA8292 /* Debug */,
+				36ADF02315E6FCD000EA8292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36ADF01915E6FCD000EA8292 /* Project object */;
+}

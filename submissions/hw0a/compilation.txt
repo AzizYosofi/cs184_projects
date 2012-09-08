@@ -1,0 +1,10 @@
+Compilation.txt
+Juan Gonzalez
+cs184-am
+===============
+
+I am running OSX Mountain Lion. To get started, I downloaded the commanline tools through Xcode. This package included tools like make. Also, I had to install XQuarts, since Apple does not include X11 with Mountain Lion.
+
+hw1 skeleton compilation: I downloaded the skeleton from the course website, and using make, I compiled the code. I ran the execeutable and I was able to see a teapot on a blue background.
+
+h0 compilation: I downloaded the required files, ran make, and then ran the executable. I was able to view the animation, trigger events by pressing p,i,o, etc., and I was able to take the screenshots.

@@ -26,7 +26,7 @@ bool useGlu; // Toggle use of "official" opengl/glm transform vs user code
 int w = 600, h = 400; // width and height 
 
 Grader grader;
-bool allowGrader = false; 
+bool allowGrader = false;
 
 GLuint vertexshader,fragmentshader,shaderprogram; // shaders
 

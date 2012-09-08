@@ -1,0 +1,6 @@
+hw0.txt
+Juan Gonzalez
+cs184-am
+==============
+
+HW0 Submission report link: http://ec2-50-18-150-78.us-west-1.compute.amazonaws.com/cs184web/hw0/reports/cs184-am/1345865370/

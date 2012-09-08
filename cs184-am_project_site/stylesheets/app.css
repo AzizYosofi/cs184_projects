@@ -1,0 +1,9 @@
+/** cs184 site style **/
+
+body{
+	background-image: url('../images/fabric.png');
+}
+
+dl.tabs dd a {
+padding: 0px 15.8px !important;
+}
