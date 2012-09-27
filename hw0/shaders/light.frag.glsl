@@ -61,7 +61,7 @@ void main (void)
 		const vec3 eyepos = vec3(0,0,0) ; 
 		vec4 _mypos = gl_ModelViewMatrix * myvertex ; 
 		vec3 mypos = _mypos.xyz / _mypos.w ; // Dehomogenize current location 
-		vec3 eyedirn = normalize(eyepos - mypos) ; 
+		vec3 eyedirn = normalize(eyepos - mypos) ;
 
 		// Compute normal, needed for shading. 
 		// Simpler is vec3 normal = normalize(gl_NormalMatrix * mynormal) ; 

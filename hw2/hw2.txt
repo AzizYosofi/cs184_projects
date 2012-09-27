@@ -1,0 +1,7 @@
+hw2.txt
+Juan Gonzalez
+CS184-AM
+
+Image Grader report: http://184.169.177.184/cs184web/hw2/reports/cs184-am/1348769294/
+
+Code Grader report: http://184.169.177.184/cs184web/hw2code/reports/cs184-am/1348771287/index.html

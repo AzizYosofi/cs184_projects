@@ -1,0 +1,6 @@
+HW1
+Juan Gonzalez
+CS184-AM
+
+Image Grader Report: http://ec2-50-18-150-78.us-west-1.compute.amazonaws.com/cs184web/hw1/reports/cs184-am/1347355507/index.html
+Code Grader Report: http://ec2-50-18-150-78.us-west-1.compute.amazonaws.com/cs184hw1/reports/cs184-am1347356407/hw1_report_cs184-am1347356407.html

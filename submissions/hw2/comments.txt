@@ -1,0 +1,23 @@
+Juan Gonzalez
+CS184-AM
+
+Extra Credit for Homework 2
+===========================
+
+1. Light movement:
+
+By clicking on any number from 0 - 9, you are able to transform the light specified by the number you entered by clicking the arrow keys. To return back to other operations, you may click any of the other operation buttons, such as 'v' to switch to view.
+
+I implemented using a rotation about the origin using the y and x vectors of the identity matrix as axes.
+
+2. Individual object transformations:
+
+For this option, the view, scale, and translate commands work individually from the object transformation commands. To Enable the object transformation command, you may press 'o'. This will hightlight one object. To switch to another object, simply click o repeatedly until the desired object is highlighted. The operation that will be performed on this object will be the one that is currently enabled. Thus to change the operation being performed on the object, you can click on 's' for scale, 'v' for view, and 't' for translate.
+
+In order to terminate the single object operation, press 'w'. This will unhighlight all objects and allow you to resume normal transformation operations on the whole scene.
+
+This was implementing by modifying the way that readfile stores the transformation matrix (and some other variables), and modifying response to input commands. 
+
+By pressing 'r', everything will be reset, including the light positions and the single object transformations. 
+
+Pictures will be posted on my cs184 site : http://inst.cs.berkeley.edu/~cs184-am/

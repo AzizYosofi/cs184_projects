@@ -1,0 +1,195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3631FE3115FF4529005E37DE /* demo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo.txt; sourceTree = "<group>"; };
+		3631FE3215FF4529005E37DE /* display.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = display.cpp; sourceTree = "<group>"; };
+		3631FE3315FF4529005E37DE /* glm-0.9.2.7 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "glm-0.9.2.7"; sourceTree = "<group>"; };
+		3631FE3415FF4529005E37DE /* hw1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hw1.txt; sourceTree = "<group>"; };
+		3631FE3515FF4529005E37DE /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		3631FE3615FF4529005E37DE /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		3631FE3715FF4529005E37DE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3631FE3815FF4529005E37DE /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		3631FE3915FF4529005E37DE /* osxlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = osxlib; sourceTree = "<group>"; };
+		3631FE3A15FF4529005E37DE /* readfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = readfile.cpp; sourceTree = "<group>"; };
+		3631FE3B15FF4529005E37DE /* readfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readfile.h; sourceTree = "<group>"; };
+		3631FE3C15FF4529005E37DE /* scene.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scene.txt; sourceTree = "<group>"; };
+		3631FE3D15FF4529005E37DE /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		3631FE3E15FF4529005E37DE /* shaders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shaders.cpp; sourceTree = "<group>"; };
+		3631FE3F15FF4529005E37DE /* shaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaders.h; sourceTree = "<group>"; };
+		3631FE4015FF4529005E37DE /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		3631FE4115FF4529005E37DE /* Transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transform.cpp; sourceTree = "<group>"; };
+		3631FE4215FF4529005E37DE /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		3631FE4315FF4529005E37DE /* UCB */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UCB; sourceTree = "<group>"; };
+		3631FE4415FF4529005E37DE /* variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = variables.h; sourceTree = "<group>"; };
+		36C186911610027C008EE48B /* floor_test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = floor_test.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3631FE2415FF44EF005E37DE = {
+			isa = PBXGroup;
+			children = (
+				3631FE3515FF4529005E37DE /* include */,
+				3631FE3815FF4529005E37DE /* Makefile */,
+				3631FE3915FF4529005E37DE /* osxlib */,
+				3631FE3D15FF4529005E37DE /* shaders */,
+				3631FE4315FF4529005E37DE /* UCB */,
+				3631FE3315FF4529005E37DE /* glm-0.9.2.7 */,
+				3631FE3215FF4529005E37DE /* display.cpp */,
+				3631FE3715FF4529005E37DE /* main.cpp */,
+				3631FE3A15FF4529005E37DE /* readfile.cpp */,
+				3631FE3E15FF4529005E37DE /* shaders.cpp */,
+				3631FE4115FF4529005E37DE /* Transform.cpp */,
+				3631FE3B15FF4529005E37DE /* readfile.h */,
+				3631FE3F15FF4529005E37DE /* shaders.h */,
+				3631FE4215FF4529005E37DE /* Transform.h */,
+				3631FE4415FF4529005E37DE /* variables.h */,
+				3631FE3115FF4529005E37DE /* demo.txt */,
+				3631FE3415FF4529005E37DE /* hw1.txt */,
+				3631FE3615FF4529005E37DE /* input.txt */,
+				3631FE3C15FF4529005E37DE /* scene.txt */,
+				3631FE4015FF4529005E37DE /* test.txt */,
+				36C186911610027C008EE48B /* floor_test.txt */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		3631FE2B15FF44EF005E37DE /* hw2 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 3631FE2E15FF44EF005E37DE /* Build configuration list for PBXLegacyTarget "hw2" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = hw2;
+			passBuildSettingsInEnvironment = 1;
+			productName = hw2;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		3631FE2615FF44EF005E37DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Juan Gonzalez";
+			};
+			buildConfigurationList = 3631FE2915FF44EF005E37DE /* Build configuration list for PBXProject "hw2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3631FE2415FF44EF005E37DE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3631FE2B15FF44EF005E37DE /* hw2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		3631FE2C15FF44EF005E37DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3631FE2D15FF44EF005E37DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3631FE2F15FF44EF005E37DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3631FE3015FF44EF005E37DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3631FE2915FF44EF005E37DE /* Build configuration list for PBXProject "hw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3631FE2C15FF44EF005E37DE /* Debug */,
+				3631FE2D15FF44EF005E37DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3631FE2E15FF44EF005E37DE /* Build configuration list for PBXLegacyTarget "hw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3631FE2F15FF44EF005E37DE /* Debug */,
+				3631FE3015FF44EF005E37DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3631FE2615FF44EF005E37DE /* Project object */;
+}

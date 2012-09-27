@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		365F0CFF16150537004BCBC0 /* Bezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bezier.h; sourceTree = "<group>"; };
+		365F0D0016150537004BCBC0 /* Bezier2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bezier2.h; sourceTree = "<group>"; };
+		365F0D0116150537004BCBC0 /* Bspline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bspline.h; sourceTree = "<group>"; };
+		365F0D0216150537004BCBC0 /* Curve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Curve.cpp; sourceTree = "<group>"; };
+		365F0D0316150537004BCBC0 /* Curve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curve.h; sourceTree = "<group>"; };
+		365F0D0416150537004BCBC0 /* curves_solution_linux */ = {isa = PBXFileReference; lastKnownFileType = file; path = curves_solution_linux; sourceTree = "<group>"; };
+		365F0D0516150537004BCBC0 /* curves_solution_mac */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = curves_solution_mac; sourceTree = "<group>"; };
+		365F0D0616150537004BCBC0 /* curves2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = curves2.cpp; sourceTree = "<group>"; };
+		365F0D0916150537004BCBC0 /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		365F0D0A16150537004BCBC0 /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		365F0D0B16150537004BCBC0 /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		365F0D0E16150537004BCBC0 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLEW.a; sourceTree = "<group>"; };
+		365F0D1016150537004BCBC0 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLEW.a; sourceTree = "<group>"; };
+		365F0D1116150537004BCBC0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		365F0D1216150537004BCBC0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		365F0D1316150537004BCBC0 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		365F0D1416150537004BCBC0 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		365F0D1516150537004BCBC0 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		365F0D1616150537004BCBC0 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		365F0D1816150537004BCBC0 /* .nop.frag.glsl.swp */ = {isa = PBXFileReference; lastKnownFileType = file; path = .nop.frag.glsl.swp; sourceTree = "<group>"; };
+		365F0D1916150537004BCBC0 /* .nop.vert.glsl.swp */ = {isa = PBXFileReference; lastKnownFileType = file; path = .nop.vert.glsl.swp; sourceTree = "<group>"; };
+		365F0D1A16150537004BCBC0 /* nop.frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nop.frag.glsl; sourceTree = "<group>"; };
+		365F0D1B16150537004BCBC0 /* nop.vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nop.vert.glsl; sourceTree = "<group>"; };
+		365F0D1C16150537004BCBC0 /* shaders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shaders.cpp; sourceTree = "<group>"; };
+		365F0D1D16150537004BCBC0 /* shaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaders.h; sourceTree = "<group>"; };
+		365F0D1E16150537004BCBC0 /* WorkingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkingScene.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		365F0CF21615050D004BCBC0 = {
+			isa = PBXGroup;
+			children = (
+				365F0CFF16150537004BCBC0 /* Bezier.h */,
+				365F0D0016150537004BCBC0 /* Bezier2.h */,
+				365F0D0116150537004BCBC0 /* Bspline.h */,
+				365F0D0216150537004BCBC0 /* Curve.cpp */,
+				365F0D0316150537004BCBC0 /* Curve.h */,
+				365F0D0416150537004BCBC0 /* curves_solution_linux */,
+				365F0D0516150537004BCBC0 /* curves_solution_mac */,
+				365F0D0616150537004BCBC0 /* curves2.cpp */,
+				365F0D0716150537004BCBC0 /* include */,
+				365F0D0C16150537004BCBC0 /* lib */,
+				365F0D1116150537004BCBC0 /* main.cpp */,
+				365F0D1216150537004BCBC0 /* Makefile */,
+				365F0D1316150537004BCBC0 /* Point.cpp */,
+				365F0D1416150537004BCBC0 /* Point.h */,
+				365F0D1516150537004BCBC0 /* Scene.cpp */,
+				365F0D1616150537004BCBC0 /* Scene.h */,
+				365F0D1716150537004BCBC0 /* shaders */,
+				365F0D1C16150537004BCBC0 /* shaders.cpp */,
+				365F0D1D16150537004BCBC0 /* shaders.h */,
+				365F0D1E16150537004BCBC0 /* WorkingScene.h */,
+			);
+			sourceTree = "<group>";
+		};
+		365F0D0716150537004BCBC0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				365F0D0816150537004BCBC0 /* GL */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		365F0D0816150537004BCBC0 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				365F0D0916150537004BCBC0 /* glew.h */,
+				365F0D0A16150537004BCBC0 /* glxew.h */,
+				365F0D0B16150537004BCBC0 /* wglew.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		365F0D0C16150537004BCBC0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				365F0D0D16150537004BCBC0 /* mac */,
+				365F0D0F16150537004BCBC0 /* nix */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		365F0D0D16150537004BCBC0 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				365F0D0E16150537004BCBC0 /* libGLEW.a */,
+			);
+			path = mac;
+			sourceTree = "<group>";
+		};
+		365F0D0F16150537004BCBC0 /* nix */ = {
+			isa = PBXGroup;
+			children = (
+				365F0D1016150537004BCBC0 /* libGLEW.a */,
+			);
+			path = nix;
+			sourceTree = "<group>";
+		};
+		365F0D1716150537004BCBC0 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				365F0D1816150537004BCBC0 /* .nop.frag.glsl.swp */,
+				365F0D1916150537004BCBC0 /* .nop.vert.glsl.swp */,
+				365F0D1A16150537004BCBC0 /* nop.frag.glsl */,
+				365F0D1B16150537004BCBC0 /* nop.vert.glsl */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		365F0CF91615050D004BCBC0 /* hw3 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 365F0CFC1615050D004BCBC0 /* Build configuration list for PBXLegacyTarget "hw3" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = hw3;
+			passBuildSettingsInEnvironment = 1;
+			productName = hw3;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		365F0CF41615050D004BCBC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Juan Gonzalez";
+			};
+			buildConfigurationList = 365F0CF71615050D004BCBC0 /* Build configuration list for PBXProject "hw3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 365F0CF21615050D004BCBC0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				365F0CF91615050D004BCBC0 /* hw3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		365F0CFA1615050D004BCBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		365F0CFB1615050D004BCBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		365F0CFD1615050D004BCBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		365F0CFE1615050D004BCBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365F0CF71615050D004BCBC0 /* Build configuration list for PBXProject "hw3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365F0CFA1615050D004BCBC0 /* Debug */,
+				365F0CFB1615050D004BCBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365F0CFC1615050D004BCBC0 /* Build configuration list for PBXLegacyTarget "hw3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365F0CFD1615050D004BCBC0 /* Debug */,
+				365F0CFE1615050D004BCBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 365F0CF41615050D004BCBC0 /* Project object */;
+}
